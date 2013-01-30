@@ -10,5 +10,6 @@ Description:    This is an R wrapper for the C++ based Compact language
   				by the Chromium Authors and further cleaned out by Mike McCandless 
   				and by Matt Sanford. It is used for language identification.
 License: file LICENCE
+SystemRequirements: g++ or Microsoft VC++
 LazyLoad: yes
 

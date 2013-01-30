@@ -1,4 +1,4 @@
-\name{medSTC-package}
+\name{cldr-package}
 \Rdversion{1.0.1}
 \alias{cldr-package}
 \docType{package}

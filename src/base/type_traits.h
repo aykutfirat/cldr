@@ -39,7 +39,9 @@ namespace base {
 // is_integral is false except for the built-in integer types.
 template <class T> struct is_integral : false_type { };
 template<> struct is_integral<bool> : true_type { };
+#if !defined(__INT_FAST8_TYPE__IS_UNSIGNED) && !defined(__sun)
 template<> struct is_integral<char> : true_type { };
+#endif
 //template<> struct is_integral<unsigned char> : true_type { };
 //template<> struct is_integral<signed char> : true_type { };
 #if defined(_MSC_VER)

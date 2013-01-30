@@ -89,6 +89,8 @@
 #define ARCH_CPU_ARMEL 1
 #define ARCH_CPU_32_BITS 1
 #define WCHAR_T_IS_UNSIGNED 1
+#elif defined(__sun)
+#define __INT_FAST8_TYPE__IS_UNSIGNED 1
 #else
 #error Please add support for your architecture in build/build_config.h
 #endif

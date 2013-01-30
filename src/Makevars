@@ -1,6 +1,5 @@
 PKG_CXXFLAGS=-DCLD_WINDOWS
 PKG_CPPFLAGS = -I.
-PKG_LIBS =-lstdc++ 
 
 SOURCES =  encodings/compact_lang_det/cldutil.cc \
         encodings/compact_lang_det/cldutil_dbg_empty.cc \
